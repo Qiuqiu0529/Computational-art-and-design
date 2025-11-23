@@ -10,6 +10,6 @@ void setup()
 for(int i=0;i<4;i++)
 {
   fill(data[i*3+2]);
-  circle(data[i*3],data[i*3+1],30);
+  circle(data[i*3],data[i*3+1],100);
 }
 }

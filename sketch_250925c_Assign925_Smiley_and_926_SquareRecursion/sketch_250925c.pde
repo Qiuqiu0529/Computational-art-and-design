@@ -8,7 +8,7 @@ void setup()
   println(average(arr));
   println(average(empty));
   size(800,400);
-  recurse(10);
+  //recurse(10);
  // bubble(width/2,height/2,100);
  
   squares(0,0,height);
@@ -18,7 +18,7 @@ float angle=0;
 void draw()
 {
   
-  
+  //smileface
   //fill(255,0,0);
   //rect(200,200,200,200);
   //if(mousePressed)
@@ -33,6 +33,8 @@ void draw()
   //{
   //  smilely(mouseX,mouseY);
   //}
+  
+  
   //branch(width/2,height,100);
   
   //angle+=0.02;

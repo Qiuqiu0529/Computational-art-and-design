@@ -23,7 +23,7 @@ list.append(#808080);
   for(int i=0;i<4;i++)
 {
   fill(list.get(i*3+2));
-  circle(list.get(i*3),list.get(i*3+1),30);
+  circle(list.get(i*3),list.get(i*3+1),100);
 }
 
 }

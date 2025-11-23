@@ -1,6 +1,6 @@
 int ypos;
 float radius;
-float minradius=20,maxradius=40;
+float minradius=40,maxradius=60;
 int lastmouseX,lastmouseY;
 void setup()
 {
@@ -42,17 +42,17 @@ void draw()
   
   if(mousePressed)
   {
-    //if(mouseY<130)
+    //if(mouseX<200)
     //{
     //  fill(#0A0606);
     //}
-    //else if(mouseY<260)
+    //else if(mouseX<400)
     //{
-    //  fill(#D32929);
+      
+    //  fill(#F7D83C);
     //}
     //else
-    //{
-    //  fill(#F7D83C);
+    //{fill(#D32929);
     //}
     if(mouseX<220&&mouseX>180||(mouseY>150&&mouseY<220))
     {
